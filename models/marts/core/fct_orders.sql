@@ -39,6 +39,7 @@ final as (
         orders.priority_code,
         --
         orders.ship_priority,
+        1/0 as bad_column,
                 
         1 as order_count,                
         order_item_summary.gross_item_sales_amount,
