@@ -1,0 +1,17 @@
+version: 2
+
+exposures:
+  - name: orders_dashboard
+    description: Dashboard showing orders by date
+    
+    type: dashboard 
+    url: https://app.snowflake.com/us-west-2/zna84829/orders-dashboard-dauXx70gt
+    
+    maturity: low
+    
+    owner:
+      name: Jon "Natty" Natkins
+      email: natty@fishtownanalytics.com
+
+    depends_on:
+      - ref('fct_orders')
