@@ -2,7 +2,7 @@ version: 2
 
 models:
   - name: materialization_incremental
-    description: demo to show incremental model for summit
+    description: demo to show incremental model for summit test
     columns:
       - name: customer_key
         tests:
