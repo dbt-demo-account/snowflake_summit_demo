@@ -33,7 +33,7 @@ final as (
     select 
 
         orders.order_key, 
-        orders.order_date,
+        orders.order_date,  
         orders.customer_key,
         orders.status_code,
         orders.priority_code,
