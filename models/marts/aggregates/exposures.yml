@@ -11,7 +11,7 @@ exposures:
     
     owner:
       name: Jon "Natty" Natkins
-      email: natty@fishtownanalytics.com
+      email: natty@dbtlabs.com
 
     depends_on:
       - ref('fct_orders')
