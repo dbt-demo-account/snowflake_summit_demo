@@ -36,8 +36,8 @@ final as (
         orders.order_date,
         orders.customer_key,
         orders.status_code,
-        orders.priority_code
-        --orders.clerk_name,
+        orders.priority_code,
+        orders.clerk_name,
         orders.ship_priority,
                 
         1 as order_count,                
