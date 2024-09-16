@@ -29,6 +29,7 @@ final as (
         {# region.region_key as region_key, #}
         region.name as region,
         customer.phone_number,
+        customer.phone_number as mobile_number,
         customer.account_balance,
         customer.market_segment
     from
